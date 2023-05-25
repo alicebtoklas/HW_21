@@ -1,0 +1,271 @@
+header {
+    background-color: #D1495B;
+}
+.nav-link {
+    color: black;
+}
+body {
+    font-family: Raleway;
+    background-color:#F9F8F8;
+}
+#navbarNav {
+justify-content: end;
+}
+.display-4 {
+    text-align: center;
+    color: #F3F7F0;
+    font-weight: 400;
+}
+.caseStudyJumbotron {
+    background-color: #00798C;
+    text-align: center;
+    margin-bottom: 0;
+}
+.homeJumbotron {
+    color: white;
+    background-color: #00798C;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+.caseStudiesIntro {
+    width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+.wellReadJumbo {
+    width: 300px;
+}
+.lead {
+    text-align: center;
+    color: #F3F7F0;
+}
+.follow {
+    text-align: center;
+    color: #F3F7F0;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 8px;
+}
+.research-card {
+    background-color: #C8BFC7;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.media {
+    margin: 20px;
+}
+#returnTop {
+    text-align: right;
+    padding: 20px;
+}
+footer {
+        background-color: #00798C;
+}
+.bottomLogo {
+    display: inline-block;
+    width: 23%;
+    padding: 1%;
+}
+.footerNav {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding: 10px;
+}
+#socialMedia {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: start;
+}
+h1 {
+    text-align: center;
+}
+.caseStudiesTitle {
+    color: purple;
+}
+.caseStudies, .mySkills {
+    padding: 15px;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+.researchImage img {
+    width: 100%;
+    height: auto;
+}
+.userResearch {
+    width: 30%;
+}
+.contentStrategy {
+    width: 30%;
+}
+.userInterface {
+    width: 30%;
+}
+.wellRead {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+    align-content: start;
+    grid-template-areas: 
+    "wellReadImage wellReadText";
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.wellReadImage img {
+    width: 100%;
+    height: auto;
+}
+.wellReadImage {
+    grid-area: wellReadImage;
+    grid-column-start: 1;
+}
+.wellReadText {
+    padding-left: 20px;
+    grid-area: wellReadText;
+    grid-column-start: 2;
+    margin-right: 5%;
+    width: 800px;
+}
+.deptEd {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "deptEdText deptEdImage";
+    margin: 10px;
+}
+.deptEdText {
+    padding-right: 20px;
+    grid-area: deptEdText;
+    grid-column-start: 1;
+    margin-left: 5%;
+    width: 800px;
+}
+.deptEdImage img {
+    width: 100%;
+    height: auto;
+}
+.deptEdImage {
+    grid-area: deptEdImage;
+    grid-column-start: 2;
+}
+.allProjectsCenter {
+    margin-top: 8px;
+    text-align: center;
+}
+button {
+    font-family: Raleway;
+}
+.caseStudiesButton {
+    background-color: #71afbb;
+    color: white;
+    padding: 1%;
+    font-size: 14px;
+    border-radius: 8px;   
+}
+.caseStudy1Button {
+    background-color: #71afbb;
+    color: white;
+    padding: 1%;
+    font-size: 14px;
+    border-radius: 8px; 
+}
+.allProjectsButton {
+    background-color: #71afbb;
+    color: white;
+    padding: 1%;
+    font-size: 14px;
+    border-radius: 8px;
+}
+#returnTop {
+    text-align: right;
+    padding: 20px;
+}
+.aboutMe {
+    margin: 20px;
+    margin-top: 50px;
+}
+.block {
+    display: inline-block;
+    margin-bottom: 10%;
+}
+.aboutImage {
+    float: left;
+    width: 300px;
+    margin-left: 6%;
+}
+.aboutContent {
+    float: right;
+    width: 60%;
+    margin-right: 6%;
+    margin-left: 2%;
+    margin-top: 25px;
+}
+footer {
+        background-color: #afabcb;
+}
+.bottomLogo {
+    display: inline-block;
+    width: 23%;
+    padding: 1%;
+}
+.footerNav {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    padding: 10px;
+}
+#socialMedia {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: start;
+}
+.grid {
+    margin: 20px;
+}
+@media only screen and (max-width: 600px) { 
+    .flexContainer {
+        flex-direction: column;
+    }
+    .userResearch, .contentStrategy, .userInterface {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+        .wellRead {
+            display: block;
+        }
+        .wellReadText {
+            display: block;
+            width: auto;
+            margin: 2%;
+        }
+        .deptEd {
+            display: block;
+        }
+        .deptEdText {
+            display: block;
+            width: auto;
+            margin: 2%;
+        }
+    }
+@media only screen and (max-width: 600px) { 
+    .media {
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px) { 
+    .media-body {
+        margin: 15px;
+    }
+}
