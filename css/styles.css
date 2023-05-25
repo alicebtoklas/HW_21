@@ -86,6 +86,12 @@ footer {
 h1 {
     text-align: center;
 }
+h2 {
+    margin-left: 5%;
+}
+.caseStudiesIntro {
+    margin-left: 8%;
+}
 .caseStudiesTitle {
     color: purple;
 }
@@ -97,6 +103,8 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     padding: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 .researchImage img {
     width: 100%;
@@ -120,6 +128,8 @@ h1 {
     "wellReadImage wellReadText";
     margin: 10px;
     margin-bottom: 50px;
+    margin-right: 8%;
+    margin-left: 8%;
 }
 .wellReadImage img {
     width: 100%;
@@ -143,6 +153,8 @@ h1 {
     grid-template-areas:
     "deptEdText deptEdImage";
     margin: 10px;
+    margin-right: 8%;
+    margin-left: 8%;
 }
 .deptEdText {
     padding-right: 20px;
